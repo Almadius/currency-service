@@ -17,7 +17,7 @@ Feature тесты
 
 ### Запуск проекта
 1. Клонируйте репозиторий на ваш локальный компьютер:
-   git clone 
+   git clone https://github.com/Almadius/currency-service.git
 
 2. Перейдите в каталог проекта:
    cd <название_каталога_проекта>
