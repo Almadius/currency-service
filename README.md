@@ -31,7 +31,10 @@
 5. Миграция и начальное заполнение базы данных
    docker-compose exec app php artisan migrate
 
-6. API предоставляет следующие эндпоинты:
+6. Запуск команды
+   docker-compose exec app php artisan app:update-currency-rates
+
+7. API предоставляет следующие эндпоинты:
    GET /api/currency-rates - получение списка всех доступных курсов валют.
 
 ### Использование Makefile
